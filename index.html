@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marriage Biodata Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="form-box">
+    <h2>Marriage Biodata Form</h2>
+
+    <form id="biodataForm">
+
+        <h3>Personal Details</h3>
+
+        <label>Full Name:</label>
+        <input type="text" id="fullname">
+
+        <label>Date of Birth:</label>
+        <input type="date" id="dob">
+
+        <label>Height:</label>
+        <input type="text" id="height">
+
+        <label>Weight:</label>
+        <input type="text" id="weight">
+
+        <label>Blood Group:</label>
+        <input type="text" id="blood">
+
+        <label>Religion:</label><br>
+        <input type="radio" name="religion" value="Islam"> Islam
+        <input type="radio" name="religion" value="Hindu"> Hindu
+        <input type="radio" name="religion" value="Christian"> Christian
+        <input type="radio" name="religion" value="Buddhist"> Buddhist
+        <br><br>
+
+        <label>Nationality:</label>
+        <input type="text" id="nationality">
+
+        <label>Present Address:</label>
+        <textarea rows="2" id="present"></textarea>
+
+        <label>Permanent Address:</label>
+        <textarea rows="2" id="permanent"></textarea>
+
+        <label>Marital Status:</label><br>
+        <input type="radio" name="status" value="Unmarried"> Unmarried
+        <input type="radio" name="status" value="Divorced"> Divorced
+        <input type="radio" name="status" value="Widow"> Widow / Widower
+        <br><br>
+
+        <h3>Family Details</h3>
+
+        <label>Father's Name:</label>
+        <input type="text" id="father">
+
+        <label>Mother's Name:</label>
+        <input type="text" id="mother">
+
+        <h3>Academic Information</h3>
+
+        <label>Highest Qualification:</label>
+        <input type="text" id="qualification">
+
+        <label>Year of Passing:</label>
+        <input type="number" id="year">
+
+        <h3>Contact Information</h3>
+
+        <label>Email:</label>
+        <input type="email" id="email">
+
+        <label>Mobile Number:</label>
+        <input type="text" id="mobile">
+
+        <br><br>
+
+        <input type="submit" value="Submit" class="btn submit-btn">
+        <input type="reset" value="Reset" class="btn reset-btn">
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
